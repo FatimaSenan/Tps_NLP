@@ -1,0 +1,24 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4EGxQIAPEFQdQ==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4l0SkZiQUElfmNiAVKZa5w=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KfGleRmJBQWVtbWxAN75UWc=": "utter_cheer_up",
+    "eJydjlEKgCAQRK/iATqBV4lYxJYUchVdgxDv3oL9G/0MM/B4zNr6olrKeIGx7CNp1UYBMgG1esfpCyMJWwtmYTzJZK2OjMh94qjMmGGg/wyTFyHGHSo5k9L97Yx1KFnTzLU9XiFuqQ==": "utter_did_that_help",
+    "eJytjlEKgCAQRK/iATqBV4lYRIcUahVbg5DunlD/RvQzzMDjMWM9B1VTxk7GSoisVb0LsVmh1TOWsAm4sWVDbkzgNkWrOQNydhxFBJlu9Juh82KN0VFhb1I63p2xHi1L+sPlgiPxRshj6QqnC1EGjek=": "action_listen",
+    "eJytj9EJwzAMRFfxAJ3Aq4QgRKzUglg2ilwoxrvXkP67tP0Rd/B4nJbWb64VpQfgZpzFu3YFEEzk3bscfBrJYOtJOhiWUc27uxJZnziqGSlc6HeGyYqUc4AqEUt5fjZmizRuLf9wBQ5gEQ0iHT8KJ3/ivrOm3tcXH2yoGw==": "utter_happy",
+    "eJytj0EKAyEMRa/iAXoCr1JKCGOmBsYomVgoMnevYLfFoe0m5MPn5eXajotrRekBuBhn8a6NBQQTefcOG+9G0rt1J+0dlh7Nu7sS2TFhVDNSGNXvCBOLlHOAKhFLeZ6TWSL1Wcs/WIEDWESDSNuPwMmfuK6s6ZzVuPcRcXsBe37Blg==": "action_listen",
+    "eJwtymEKgCAMQOGr7ACdwKtEDLFBgk7ZZhLi3RPq3/vg7WNuMKrQjT5YLOxgfIHsMzn4kaIa8Xqbkqwn8qI5CKWxyYM92oW5qGEvkk4MreqcxwvZVSVg": "utter_country_with_most_world_cups_response",
+    "eJyVjdEJgDAMBVfpAE7QVUSC1IAFTUqSWqR0dwv6rfj3Do57Y22Dq0nwgDlYZPKu3gNo3tG7B7aohtTdrCjdidTRvAucyeSEEm2FndWgsGwLhJy0faSzGQq8FUBQE5Pi3+PpAuhtVfY=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKbEoOTUnPy8xPjk/MTkj3sjAwKK2NhYArnkgmw==": "utter_barcelona_coach_2008_response",
+    "eJyNjUEKgDAMBL/SB3gQT9KviIRYAhZqWtLUS+nfLehR0NsOzO4utQ2mJqET0KmPbE29AzAeZM0DwWcl7m7JJN3x3FGt2VAchcgILqLbYRrHuX1MFlUSeGuCUE6RM/09Wi85fken": "action_listen",
+    "eJytj1EKwyAQRK/iAXoCr1LCInGIQrKKWQNFvHsX7L+h7c8yA4/H7LP1h2m54CK3SkxsTRuB2B2w5lP2eApY2XqiKBNZq1izFUD6xFFFUGig3xkmK46UPFUOLufXvTFrgN6a/+Hy0ZMEJxSw/yic/OnBqlje0A2nVg==": "utter_goodbye",
+    "eJytj9EJwzAMRFfxAJ3Aq4Qg3PiIDYlsHLkQTHavIP0NDm1/hA6Op6ehHQ/TcsGL3CQxsTXtXIjdCms+YYmbgLVbNxTtRNYo1swFkKPDqCIodFa/I3Qs1pQ8VQ4u5/2ezBSgs+Z/sHz0JMEJBSw/Ajt/evBNp1mPPndcIcY3+fTA0w==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOSMxtwCooDg+JzUxvTQ1vjwzLy+1KN7IwNCytjYWAMymJB8=": "utter_champions_league_winner_2019_response",
+    "eJyVjUEKgDAQA7/SB3hQb/YrIkuRoAVdS7vVQ/HvLuhZ8ZYhQ9KXszIlROzkRvEbW1PuQOxWWPPA4pOA1c0JUR3PimLNOLs1qJBogZsy6PDMiNTWTXd+TGcRNd8WKCIFrfD3eLgA5aFSMw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLT+/JCkxJyc+JzUxvTS1uLY2FgAyRyAG": "utter_football_leagues_response",
+    "eJyNjcEJgDAQBFtJAVaQVkSOKKsE4l3IXfwEezegLz/624HZ3bGdg2u54KCwWBT2rt2BOOzw7oEU1cDdrYrSncgdzbtVxOaQEiWErULPj7lqhkLvFhVoFlb8OZguf+9F6A==": "action_listen"
+  }
+}

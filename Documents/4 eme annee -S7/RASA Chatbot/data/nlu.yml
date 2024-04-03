@@ -1,0 +1,140 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: football_leagues
+  examples: |
+    - What are the 5 major European leagues?
+    - Which championships are considered the most important in Europe?
+    - List of the five major European football leagues?
+    
+- intent: champions_league_winner_2019
+  examples: |
+    - Who won the Champions League in 2019?
+    - Which club won the Champions League in 2019?
+    
+- intent: barcelona_coach_2008
+  examples: |
+    - Who was the coach of FC Barcelona in 2008?
+    - Name the coach of Barça in 2008.
+    
+- intent: country_with_most_world_cups
+  examples: |
+    - Which country has won the most World Cups?
+    - Country with the highest number of victories in the World Cup?
+
+
+- intent: country_location
+  examples: |
+    - Where is Morocco located?
+    - What is the location of Morocco?
+    - In which continent can I find Morocco?
+    - Tell me about the location of Morocco
+
+- intent: smallest_country
+  examples: |
+    - What is the smallest country in the world?
+    - Which country has the smallest area?
+    - Name the tiniest country on Earth
+
+- intent: inform
+  examples: |
+    - My name is [John](name) and I am [25](age) years old
+    - I'm [Emma](name) and I'm [30](age)
+    - [Premier League](best_league) is my favorite football league
+    - I love watching [La Liga](best_league)
+
+
+- intent: ask_name
+  examples: |
+    - What's my name?
+    - What do you know my name as?
+    - Can you remind me my name?

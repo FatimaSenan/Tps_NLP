@@ -1,0 +1,79 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - football_leagues
+  - champions_league_winner_2019
+  - barcelona_coach_2008
+  - country_with_most_world_cups
+  - country_location
+  - smallest_country
+  - inform
+  - ask_name
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_football_leagues_response:
+    - text: "The five major European leagues are the Premier League, La Liga, the Bundesliga, Serie A, and Ligue 1."
+
+  utter_champions_league_winner_2019_response:
+    - text: "The winner of the Champions League in 2019 was Liverpool."
+
+  utter_barcelona_coach_2008_response:
+    - text: "In 2008, the coach of FC Barcelona was Pep Guardiola."
+
+  utter_country_with_most_world_cups_response:
+    - text: "Brazil has won the most number of World Cups, with a total of five victories."
+
+  utter_country_location_response:
+    - text: "Morocco is located in North Africa, bordered by the Atlantic Ocean and the Mediterranean Sea."
+
+  utter_smallest_country_response:
+    - text: "The smallest country in the world is Vatican City, with an area of approximately 44 hectares."
+
+  utter_ask_best_league:
+    - text: "What is your favorite football league, {name}?"
+
+  utter_acknowledge:
+    - text: "Got it, {name}! Thanks for sharing. {best_league} is a great choice!"
+
+  utter_store_name_acknowledge:
+    - text: "Got it, I'll remember your name as {name}."
+
+  utter_ask_name:
+    - text: "You said your name is {name}, right?"
+
+slots:
+  name:
+    type: text
+  age:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: age
+  best_league:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: best_league
+
+actions:
+- action_provide_name

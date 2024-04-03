@@ -1,0 +1,84 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: Question sur les grands championnats européens
+  steps:
+    - intent: football_leagues
+    - action: utter_football_leagues_response
+
+- story: Question sur le vainqueur de la Ligue des champions en 2019
+  steps:
+    - intent: champions_league_winner_2019
+    - action: utter_champions_league_winner_2019_response
+
+- story: Question sur l'entraîneur du FC Barcelone en 2008
+  steps:
+    - intent: barcelona_coach_2008
+    - action: utter_barcelona_coach_2008_response
+
+- story: Question sur le pays avec le plus de victoires en Coupe du monde
+  steps:
+    - intent: country_with_most_world_cups
+    - action: utter_country_with_most_world_cups_response
+
+
+    - story: User asks about country location
+  steps:
+    - intent: country_location
+    - action: utter_country_location_response
+
+- story: User inquires about the smallest country
+  steps:
+    - intent: smallest_country
+    - action: utter_smallest_country_response
+
+- story: Provide name
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform
+    entities:
+    - name: "John"
+  - action: action_provide_name
+
+  
+- story: Provide best league only
+  steps:
+    - intent: inform
+      entities:
+        - best_league: "Premier League"
+    - action: utter_acknowledge
+
+- story: Memorize user's name
+  steps:
+  - intent: greet
+  - action: utter_store_name_acknowledge
